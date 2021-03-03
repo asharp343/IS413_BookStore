@@ -1,4 +1,4 @@
-appsettings.json
+IS413_BookStore/appsettings.json
 
 # globs
 Makefile.in
@@ -29,10 +29,10 @@ Icon
 
 # Thumbnails
 ._*
-
+ 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
-.fseventsd
+.fseventsdgit rm -r --cached
 .Spotlight-V100
 .TemporaryItems
 .Trashes
