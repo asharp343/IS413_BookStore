@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header bg-info">
         <h1 class="logo"><a asp.controller="Home" asp-action="Index"><img src="~/img/bookIcon.png" width="55"></a></h1>
         <ul class="main-nav">
             <!-- Add Navigation Links here-->
@@ -26,12 +26,21 @@
     <br /><br />
     <h1 class="text-center">@ViewData["Heading"]</h1><br />
 
+    <div class="row m-1 p-1">
+        <div class="col-2">
+            <h3>Filter Results:</h3>
+            <vc:navigation-menu />
+        </div>
+        <div class="col-10">
+            @RenderBody()
+        </div>
+    </div>
 
-    @RenderBody()
+    @RenderSection("PageInfo", required: false)
 
 
     <footer class="footer">
-        Anthony Sharp - IS 413 Assignment 5
+        Anthony Sharp - IS 413 Book Store
     </footer>
 
 

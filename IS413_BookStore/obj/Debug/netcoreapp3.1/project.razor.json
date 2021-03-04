@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore.csproj",
+  "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/IS413_BookStore.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -10256,6 +10256,87 @@
         }
       },
       {
+        "HashCode": 1989899221,
+        "Kind": "ITagHelper",
+        "Name": "IS413_BookStore.Infrastructure.PageLinkTagHelper",
+        "AssemblyName": "IS413_BookStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "div",
+            "Attributes": [
+              {
+                "Name": "page-model"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-model",
+            "TypeName": "IS413_BookStore.Models.ViewModels.PagingInfo",
+            "Metadata": {
+              "Common.PropertyName": "PageModel"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-action",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageAction"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-url-values",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "IndexerNamePrefix": "page-url-",
+            "IndexerTypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "PageUrlValues"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-classes-enabled",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "PageClassesEnabled"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClass"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-normal",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassNormal"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-selected",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassSelected"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "IS413_BookStore.Infrastructure.PageLinkTagHelper"
+        }
+      },
+      {
         "HashCode": -578525471,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -12422,6 +12503,23 @@
         }
       },
       {
+        "HashCode": -204117284,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NavigationMenuViewComponentTagHelper",
+        "AssemblyName": "IS413_BookStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:navigation-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NavigationMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NavigationMenu"
+        }
+      },
+      {
         "HashCode": 899238057,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14392,38 +14490,48 @@
   "RootNamespace": "IS413_BookStore",
   "Documents": [
     {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/Shared/_Layout.cshtml",
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Shared/Components/NavigationMenu/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Shared/BookSummary.cshtml",
+      "TargetPath": "Views\\Shared\\BookSummary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

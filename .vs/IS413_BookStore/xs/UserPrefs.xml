@@ -10,8 +10,8 @@
       <File FileName="IS413_BookStore/Models/EFBookRepository.cs" />
       <File FileName="IS413_BookStore/Views/Home/Privacy.cshtml" />
       <File FileName="IS413_BookStore/appsettings.json" Line="15" Column="2" />
-      <File FileName="IS413_BookStore/Program.cs" Line="1" Column="1" />
-      <File FileName="IS413_BookStore/Startup.cs" Line="28" Column="87" />
+      <File FileName="IS413_BookStore/Program.cs" />
+      <File FileName="IS413_BookStore/Startup.cs" />
       <File FileName="IS413_BookStore/wwwroot/css/site.css" />
       <File FileName="IS413_BookStore/Views/_ViewStart.cshtml" />
       <File FileName="IS413_BookStore/Controllers/HomeController.cs" />
@@ -24,8 +24,10 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="IS413_BookStore" expanded="True" selected="True">
-            <Node name="IS413_BookStore" expanded="True" />
+          <Node name="IS413_BookStore" expanded="True">
+            <Node name="IS413_BookStore" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
