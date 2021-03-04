@@ -1,24 +1,18 @@
 ﻿<Properties StartupConfiguration="{3CD17FBB-CB61-4D51-82D6-AC6C0B3A4B48}|Default">
   <MonoDevelop.Ide.ItemProperties.IS413__BookStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IS413_BookStore/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IS413_BookStore/wwwroot/css/main.css">
     <Files>
-      <File FileName="IS413_BookStore/Views/Home/Index.cshtml" Line="61" Column="76" />
-      <File FileName="IS413_BookStore/Models/SeedData.cs" />
-      <File FileName="IS413_BookStore/Views/Shared/_Layout.cshtml" />
-      <File FileName="IS413_BookStore/Models/Book.cs" />
-      <File FileName="IS413_BookStore/Models/BookStoreContext.cs" />
-      <File FileName="IS413_BookStore/Models/EFBookRepository.cs" />
-      <File FileName="IS413_BookStore/Views/Home/Privacy.cshtml" />
-      <File FileName="IS413_BookStore/appsettings.json" Line="12" Column="1" />
-      <File FileName="IS413_BookStore/Program.cs" />
+      <File FileName="IS413_BookStore/Views/Shared/Components/NavigationMenu/Default.cshtml" Line="10" Column="39" />
+      <File FileName="IS413_BookStore/Components/NavigationMenuViewComponent.cs" />
       <File FileName="IS413_BookStore/Startup.cs" />
-      <File FileName="IS413_BookStore/wwwroot/css/site.css" />
-      <File FileName="IS413_BookStore/Views/_ViewStart.cshtml" />
+      <File FileName="IS413_BookStore/Views/Shared/_Layout.cshtml" Line="20" Column="24" />
       <File FileName="IS413_BookStore/Controllers/HomeController.cs" />
-      <File FileName="IS413_BookStore/Models/IBookRepository.cs" />
-      <File FileName="IS413_BookStore/Models/ErrorViewModel.cs" />
-      <File FileName="IS413_BookStore/Views/_ViewImports.cshtml" />
-      <File FileName="IS413_BookStore/wwwroot/css/main.css" />
+      <File FileName="IS413_BookStore/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="IS413_BookStore/Infrastructure/PageLinkTagHelper.cs" />
+      <File FileName="IS413_BookStore/Views/Home/Index.cshtml" />
+      <File FileName="IS413_BookStore/Views/Home/Privacy.cshtml" />
+      <File FileName="IS413_BookStore/Views/Shared/BookSummary.cshtml" />
+      <File FileName="IS413_BookStore/wwwroot/css/main.css" Line="93" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,12 +20,15 @@
           <Node name="IS413_BookStore" expanded="True">
             <Node name="IS413_BookStore" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="main.css" selected="True" />
+                </Node>
               </Node>
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

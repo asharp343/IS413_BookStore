@@ -175,3 +175,5 @@
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/IS413_BookStore.dll
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/IS413_BookStore.pdb
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/IS413_BookStore.genruntimeconfig.cache
+/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
+/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/NavigationMenu/Default.cshtml.g.cs

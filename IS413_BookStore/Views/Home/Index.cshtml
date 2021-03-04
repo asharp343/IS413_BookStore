@@ -19,43 +19,19 @@
     </tr>
     @foreach (var book in Model.Books)
     {
-        <tr>
-            <td>@book.BookId</td>
-            <td>@book.Title</td>
-            <td>@book.AuthorLastName, @book.AuthorFirstName</td>
-            <td>@book.Publisher</td>
-            <td>@book.ISBN</td>
-            <td>@book.Classification</td>
-            <td>@book.Category</td>
-            <td>@book.NumPages</td>
-            @if (book.Price < 10)
-            {
-                <td class="badge badge-danger mt-1">$@book.Price</td>
-            }
-            else
-            {
-                <td>$@book.Price</td>
-            }
-
-
-        </tr>
+       <partial name="BookSummary" model="book" />
     }
 
 </table>
 
 
-<div class="mt-5" page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn ml-1 mr-1 pl-3 pr-3 mb-5" page-class-normal="btn-outline-secondary" page-class-selected="btn-info">
+@section PageInfo
+{
+    <div class="mt-5 mb-5" page-model="@Model.PagingInfo" page-action="Index"
+         page-classes-enabled="true" page-class="btn ml-1 mr-1 pl-3 pr-3 mb-5"
+         page-class-normal="btn-outline-secondary" page-class-selected="btn-info"
+         page-url-category="Model.CurrentCategory">
 
-</div>
+    </div>
+}
 
-@* /////////////////////////////////////////////////////////////////////
-    NEW BOOTSTRAP CLASSES USED FOR ASSIGNMENT 6
-
-    btn-info
-    ml-1, mr-1, pl-3, pr-3
-
-    pagination, justify-content-center  *** Find these classes in PageLinkTagHelp.cs - line 81
-
-    badge badge-danger
-
-    /////////////////////////////////////////////////////////////////////*@

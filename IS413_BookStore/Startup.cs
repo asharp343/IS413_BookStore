@@ -53,13 +53,19 @@ namespace IS413_BookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "pagination",
-                    "P{page}",
+                endpoints.MapControllerRoute("categorypage",
+                    "{category}/{page:int}",
                     new { Controller = "Home", action = "Index" });
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute("pagination",
+                    "{page:int}",
+                    new { Controller = "Home", action = "Index" });
+
+                endpoints.MapControllerRoute("category",
+                    "{category}",
+                    new { Controller = "Home", action = "Index", page = 1});
+
+                endpoints.MapDefaultControllerRoute();
             });
 
             SeedData.EnsurePopulated(app);
