@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    ViewData["Heading"] = "Favorite Books";
+    ViewData["Heading"] = "Book Store";
 }
 
 @model BookListViewModel
@@ -16,6 +16,7 @@
         <th>Category</th>
         <th>Number of Pages</th>
         <th>Price</th>
+        <th></th>
     </tr>
     @foreach (var book in Model.Books)
     {
