@@ -57,7 +57,7 @@ namespace IS413_BookStore.Infrastructure
             if (PageModel.CurrentPage == PageModel.TotalPages) { nextPage = PageModel.TotalPages; }
             else { nextPage = PageModel.CurrentPage + 1; }
 
-            backTag.Attributes["href"] = urlHelper.Action(PageAction, new { page = prevPage });
+            backTag.Attributes["href"] = urlHelper.Action(PageAction, new { pageNum = prevPage });
             backTag.AddCssClass("btn-secondary btn ml-1 mr-1 pl-2 pr-2 mb-5");
             backTag.InnerHtml.AppendHtml("<<");
             result.InnerHtml.AppendHtml(backTag);
@@ -68,7 +68,7 @@ namespace IS413_BookStore.Infrastructure
 
                 TagBuilder tag = new TagBuilder("a");
 
-                PageUrlValues["page"] = i;
+                PageUrlValues["pageNum"] = i;
                 tag.Attributes["href"] = urlHelper.Action(PageAction,
                     PageUrlValues);
 
@@ -83,7 +83,7 @@ namespace IS413_BookStore.Infrastructure
                 result.InnerHtml.AppendHtml(tag);
             }
 
-            forwardTag.Attributes["href"] = urlHelper.Action(PageAction, new { page = nextPage });
+            forwardTag.Attributes["href"] = urlHelper.Action(PageAction, new { pageNum = nextPage });
             forwardTag.AddCssClass("btn-secondary btn ml-1 mr-1 pl-2 pr-2 mb-5");
             forwardTag.InnerHtml.AppendHtml(">>");
             result.InnerHtml.AppendHtml(forwardTag);
