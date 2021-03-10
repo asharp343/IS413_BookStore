@@ -24,6 +24,7 @@ namespace IS413_BookStore.Controllers
             _repository = repository;
         }
 
+        // Action for home index that includes pagination
         public IActionResult Index(string category, int pageNum = 1)
         {
             return View(new BookListViewModel

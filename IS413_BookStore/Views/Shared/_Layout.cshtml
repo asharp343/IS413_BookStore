@@ -18,7 +18,7 @@
 <body>
 
     <header class="header bg-info">
-        <h1 class="logo"><a asp.controller="Home" asp-action="Index"><img src="~/img/bookIcon.png" width="55"></a></h1>
+        <h1 class="logo ml-4"><a asp.controller="Home" asp-action="Index"><img src="~/img/bookIcon.png" width="55"></a></h1>
         <ul class="main-nav">
             @*Put nav links here*@
         </ul>
@@ -35,7 +35,7 @@
             <h3>Filter Results:</h3>
             <vc:navigation-menu />
         </div>
-        <div class="col-10">
+        <div class="col-9">
             @RenderBody()
         </div>
     </div>
