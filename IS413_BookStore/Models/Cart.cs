@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using IS413_BookStore.Components;
 
 namespace IS413_BookStore.Models
 {
@@ -30,6 +31,7 @@ namespace IS413_BookStore.Models
 
         }
 
+        // Methods to perform actions on the Lines list
         public void RemoveLine(Book book) => Lines.RemoveAll(x => x.Book.BookId == book.BookId);
 
         public void Clear() => Lines.Clear();

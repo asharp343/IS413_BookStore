@@ -181,3 +181,4 @@
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
 /Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Pages/Purchase.cshtml.g.cs
+/Users/anthonysharp/Desktop/BYU_2021_Winter/IS413_Web_App/Assignments/IS413_BookStore/IS413_BookStore/IS413_BookStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs

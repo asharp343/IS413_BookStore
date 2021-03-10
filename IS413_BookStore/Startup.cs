@@ -62,16 +62,16 @@ namespace IS413_BookStore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("categorypage",
-                    "{category}/{page:int}",
+                    "{category}/{pageNum:int}",
                     new { Controller = "Home", action = "Index" });
 
                 endpoints.MapControllerRoute("pagination",
-                    "{page:int}",
+                    "{pageNum:int}",
                     new { Controller = "Home", action = "Index" });
 
                 endpoints.MapControllerRoute("category",
                     "{category}",
-                    new { Controller = "Home", action = "Index", page = 1});
+                    new { Controller = "Home", action = "Index", pageNum = 1});
 
                 endpoints.MapDefaultControllerRoute();
 

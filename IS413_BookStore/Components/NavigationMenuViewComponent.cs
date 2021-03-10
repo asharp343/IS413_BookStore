@@ -3,6 +3,8 @@ using System.Linq;
 using IS413_BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 
+// View component for filtering menu
+
 namespace IS413_BookStore.Components
 {
     public class NavigationMenuViewComponent : ViewComponent

@@ -18,14 +18,15 @@
     <header class="header bg-info">
         <h1 class="logo"><a asp.controller="Home" asp-action="Index"><img src="~/img/bookIcon.png" width="55"></a></h1>
         <ul class="main-nav">
-            <!-- Add Navigation Links here-->
+            @*Put nav links here*@
         </ul>
+        <a href="/purchase" class="mr-4"><img src="~/img/cart2.svg" width="35" /></a>
     </header>
 
     <br /><br />
     <h1 class="text-center">@ViewData["Heading"]</h1><br />
 
-    <div class="row m-1 p-1">
+    <div class="text-center" style="width:60%; margin:auto; min-width:800px">
         @RenderBody()
     </div>
 
