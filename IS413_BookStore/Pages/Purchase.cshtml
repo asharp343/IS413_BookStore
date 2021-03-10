@@ -22,7 +22,7 @@
         {
             <tr>
                 <td class="">@line.Book.Title</td>
-                <td class="">@line.Book.AuthorLastName, @line.Book.AuthorLastName</td>
+                <td class="">@line.Book.AuthorLastName, @line.Book.AuthorFirstName</td>
                 <td class="">$@line.Book.Price</td>
                 <td class="">@line.Quantity</td>
                 <td class="text-right">@((line.Quantity * line.Book.Price).ToString("c", System.Globalization.CultureInfo.GetCultureInfo("en-us")))</td>
@@ -56,6 +56,14 @@
 <br />
 
 <div class="m-auto">
-    <a class="btn text-secondary" href="">Empty Cart</a>
+    @*<a class="btn text-secondary" href="">Empty Cart</a>*@
+
+    <form asp-page-handler="Clear" method="post">
+        <input type="hidden" name="returnUrl"
+               value="@Model.ReturnUrl" />
+        <button type="submit" class="btn text-secondary">
+            Empty Cart
+        </button>
+    </form>
 </div>
 

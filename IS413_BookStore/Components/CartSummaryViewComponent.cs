@@ -12,6 +12,7 @@ namespace IS413_BookStore.Components
         public CartSummaryViewComponent(Cart cartService)
         {
             cart = cartService;
+            int cartcount = cart.Lines.Count();
         }
         public IViewComponentResult Invoke()
         {

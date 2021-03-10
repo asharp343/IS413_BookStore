@@ -57,5 +57,17 @@ namespace IS413_BookStore.Pages
 
             return RedirectToPage(new { returnUrl = returnUrl });
         }
+
+        public IActionResult OnPostClear(string returnUrl)
+        {
+            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+
+
+            Cart.Clear();
+
+            HttpContext.Session.SetJson("cart", Cart);
+
+            return RedirectToPage(new { returnUrl = returnUrl });
+        }
     }
 }

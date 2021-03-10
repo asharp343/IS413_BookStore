@@ -27,5 +27,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Pages\Shared\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
+    <Folder Include="Pages\Shared\Components\" />
+    <Folder Include="Pages\Shared\Components\CartSummary\" />
   </ItemGroup>
 </Project>
