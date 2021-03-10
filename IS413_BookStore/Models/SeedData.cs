@@ -37,7 +37,7 @@ namespace IS413_BookStore.Models
                         Classification = "Fiction",
                         Category = "Classic",
                         NumPages = 1488,
-                        Price = 9.95F
+                        Price = 9.95M
                     },
                     new Book
                     {
@@ -49,7 +49,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Biography",
                         NumPages = 944,
-                        Price = 14.58F
+                        Price = 14.58M
                     },
                     new Book
                     {
@@ -61,7 +61,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Biography",
                         NumPages = 832,
-                        Price = 21.54F
+                        Price = 21.54M
                     },
                     new Book
                     {
@@ -73,7 +73,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Biography",
                         NumPages = 864,
-                        Price = 11.61F
+                        Price = 11.61M
                     },
                     new Book
                     {
@@ -85,7 +85,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Historical",
                         NumPages = 528,
-                        Price = 13.33F
+                        Price = 13.33M
                     },
                     new Book
                     {
@@ -97,7 +97,7 @@ namespace IS413_BookStore.Models
                         Classification = "Fiction",
                         Category = "Historical-Fiction",
                         NumPages = 288,
-                        Price = 15.19F
+                        Price = 15.19M
                     },
                     new Book
                     {
@@ -109,7 +109,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Self-Help",
                         NumPages = 304,
-                        Price = 14.19F
+                        Price = 14.19M
                     },
                     new Book
                     {
@@ -121,7 +121,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Self-Help",
                         NumPages = 240,
-                        Price = 21.66F
+                        Price = 21.66M
                     },
                     new Book
                     {
@@ -133,7 +133,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Business",
                         NumPages = 400,
-                        Price = 29.16F
+                        Price = 29.16M
                     },
                     new Book
                     {
@@ -145,7 +145,7 @@ namespace IS413_BookStore.Models
                         Classification = "Fiction",
                         Category = "Thrillers",
                         NumPages = 642,
-                        Price = 15.03F
+                        Price = 15.03M
                     },
                     new Book
                     {
@@ -157,7 +157,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Self-help",
                         NumPages = 320,
-                        Price = 15.50F
+                        Price = 15.50M
                     },
                     new Book
                     {
@@ -169,7 +169,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Self-help",
                         NumPages = 288,
-                        Price = 13.99F
+                        Price = 13.99M
                     },
                     new Book
                     {
@@ -181,7 +181,7 @@ namespace IS413_BookStore.Models
                         Classification = "Non-Fiction",
                         Category = "Business",
                         NumPages = 400,
-                        Price = 16.99F
+                        Price = 16.99M
                     }
 
 

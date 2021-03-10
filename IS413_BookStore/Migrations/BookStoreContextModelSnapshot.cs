@@ -44,8 +44,8 @@ namespace IS413_BookStore.Migrations
                     b.Property<int>("NumPages")
                         .HasColumnType("INTEGER");
 
-                    b.Property<float>("Price")
-                        .HasColumnType("REAL");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Publisher")
                         .IsRequired()

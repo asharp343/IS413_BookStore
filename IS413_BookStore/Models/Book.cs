@@ -39,6 +39,6 @@ namespace IS413_BookStore.Models
         public int NumPages { get; set; }
 
         [Required]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
     }
 }

@@ -20,7 +20,7 @@ namespace IS413_BookStore.Migrations
                     Classification = table.Column<string>(type: "TEXT", nullable: false),
                     Category = table.Column<string>(type: "TEXT", nullable: false),
                     NumPages = table.Column<int>(type: "INTEGER", nullable: false),
-                    Price = table.Column<float>(type: "REAL", nullable: false)
+                    Price = table.Column<decimal>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
